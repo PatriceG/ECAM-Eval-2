@@ -7,10 +7,10 @@ import java.util.Comparator;
  * @author PG
  *
  */
-public class CommandeComparator implements Comparator<LigneCommande> {
+public class CommandeComparator implements Comparator<Commande> {
 
 	@Override
-	public int compare(LigneCommande lc0, LigneCommande lc1) {
+	public int compare(Commande c0, Commande c1) {
 		int res = 0;
 
 		//TODO: Compléter pour obtenir l'ordre de tri indiqué dans le sujet.
