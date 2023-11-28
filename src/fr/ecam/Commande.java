@@ -16,7 +16,7 @@ public class Commande {
 	}
 	
 	/**
-	 * Méthode "factory" statique permettant de retournée une Commande initialisée avec des valeurs aléatoires
+	 * Méthode "factory" statique permettant de retourner une Commande initialisée avec des valeurs aléatoires
 	 * @return Commande
 	 */
 	public static Commande newCommande() {
